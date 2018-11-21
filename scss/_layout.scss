@@ -1,0 +1,40 @@
+body {
+    background-color: #F1EDE5;
+}
+
+.wrapper {
+    
+    
+}
+
+.chocolate-cake .wrapper img{
+    // background-image: url(../images/banner.png);
+    width: 100%;
+    height: auto;
+    background-size: cover;
+    opacity: 1;
+    border-radius: 0.5rem;
+    transition: opacity 1s linear;
+}
+
+section.newsletter {
+    background-color: #4F413F;
+    color: #EEE;
+    padding: 2rem;
+    box-shadow: 0 0 2rem 0.2rem rgba(0, 0, 0, 0.2);
+}
+
+section.newsletter .field {
+    display: flex;
+    align-self: center;
+}
+
+
+section.newsletter .field .input {
+    flex: 1 0 auto;
+
+}
+
+section.newsletter .button {
+    background: #F1EDE5;
+}

@@ -1,0 +1,27 @@
+# Site settings
+
+title: Jekyll New - Foonzy
+description: A Step In The Right Direction Towards Entertainment!
+
+email: draconissickle@gmail.com
+baseurl: "/jekyll-new-foonzy" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+
+twitter_username: RadoslavStanchev
+github_username: RadoslavStanchev
+
+future: true
+markdown: kramdown
+plugins:
+  - jekyll-feed
+
+destination: docs
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - gulpfile.js
+  - docs
+  - node_modules
+  - scss
