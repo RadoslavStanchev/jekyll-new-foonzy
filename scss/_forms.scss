@@ -1,59 +1,52 @@
-form {
+.news-form {
 	max-width: 30rem;
 	margin: 0 auto;
 }
 
-form,
-form fieldset,
-form legend,
-form label,
-form input,
-form textarea,
-form select {
+.news-form,
+
+// .news-form select
+.news-form .news-input,
+.news-form textarea,
+ {
 	display: block;
 }
 
-form fieldset,
-form legend {
-	border: 1px solid #666;
-	background: #F9F9F9;
-	border-radius: 0.2rem;
-	box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,0.1);
-}
+// form fieldset,
+//  {
+// 	border: 1px solid #666;
+// 	background: #F9F9F9;
+// 	border-radius: 0.2rem;
+// 	box-shadow: 0 0 1rem 0.1rem rgba(0,0,0,0.1);
+// }
 
-form fieldset {
-	padding: 2.5em 2em 2em 2em;
-	position: relative;
-}
+// form fieldset {
+// 	padding: 2.5em 2em 2em 2em;
+// 	position: relative;
+// }
 
-form legend {
-	width: 30%;
-	padding: 0.5rem 1rem;
-	left: -1px;
-	top: -1.4rem;
-	position: absolute;
-}
+// form legend {
+// 	width: 30%;
+// 	padding: 0.5rem 1rem;
+// 	left: -1px;
+// 	top: -1.4rem;
+// 	position: absolute;
+// }
 
-form label {
-	font-weight: bold;
-}
+// form label {
+// 	font-weight: bold;
+// }
 
-.field {
-	
-}
 
-.field .input {
+.news-field .news-input {
 	display: flex;
 	position: relative;
 	align-items: center;
 }
 
-.field .input:after {
-	display: block;
-	content: '';
-}
 
-.field .input input {
+
+.news-field .news-input input {
 	border: none;
 	flex: 1 1 auto;
 	padding: 0.8rem;
@@ -63,15 +56,15 @@ form label {
 	order: 2;
 }
 
-.field .input .fas {
-	z-index: 2;
-	position: relative;
-	padding: 0 0 0 0.8rem;
-	font-size: 0.9em;
-	order: 1;
-}
+// .news-field .news-input .fas {
+// 	z-index: 2;
+// 	position: relative;
+// 	padding: 0 0 0 0.8rem;
+// 	font-size: 0.9em;
+// 	order: 1;
+// }
 
-.field .input input + .actions {
+.news-field .news-input input + .actions {
 	display: block;
 	background: #FFF;
 	border: 2px solid #333;
@@ -81,13 +74,15 @@ form label {
 	z-index: 1;
 }
 
-.field .input input:focus + .actions {
-	border-color: #090;
+.news-field .news-input input:focus + .actions {
+	border-color: #EB1D45;
 }
 
-.field .input input:focus + .actions + .fas {
-	color: #090;
+.news-field .news-input input:focus + .actions + .fas {
+	color: #EB1D45;
 }
+
+
 
 @media screen and (min-width: 800px) {
 	.field {

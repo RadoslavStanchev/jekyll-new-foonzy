@@ -27,51 +27,22 @@
             <img src="../images/logo.jpg">
             <nav class="main navigation">
                 <ul>
-                    <li><a href="{{ site.baseurl }}">Home</a></li>
+                    <li><a href="{{ site.baseurl }}/">Home</a></li>
                     <li><a href="/about/">Pricing</a></li>
                     <li><a href="/gallery/">Gallery</a></li>
+                    <li><a href="/blog/">Blog</a></li>
                     <li><a href="/login/">Login</a></li>
-                    <li><a href="/register/">Register</a></li>
+                    <li><a href="#">Register</a></li>
                 </ul>
             </nav>
         </div>
     </header>
 
-    <section class="chocolate-cake">
-        <div class="wrapper">
-            <img src="../images/banner-841x221.png">
-        </div>
-    </section>
+    {{ content }}
 
-
-    <section class="info">
-        <h1>We've got what you need!</h1>
-        <p class="line white"></p>
-        <p>
-            We hear no evil, see no evil and speak no evil. Everything we do is with and for love: love of our
-            friends from around the world and the new friends we will meet in the university. We are a playful
-            camp. We want to share great code with everyone who might journey to our desert jungle, and hopefully
-            climb up our monkey trees to enjoy a banana.
-        </p>
-        <button>Find your monkey</button>
-    </section>
-
-    <section class="newsletter">
-        <header>
-            <h2> Sign up to our newsletter with your e-mail and receive 20% off your next purchase!</h2>
-        </header>
-
-        <form action="#" method="post">
-            <p class="field">
-                <span class="input">
-                    <input type="text" name="email" />
-                    <span class="actions"></span>
-                </span>
-                <input type="submit" class="button" value="Subscribe Now">
-            </p>
-        </form>
-    </section>
-
+    <footer class="site-footer">
+        <a href="#">Foonzy</a> at your service! Copyright &copy; 2018
+    </footer>
     
     <div>
 </body>

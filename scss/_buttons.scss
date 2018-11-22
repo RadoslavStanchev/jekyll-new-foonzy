@@ -25,9 +25,10 @@ button:hover,
 button:focus,
 .button:hover,
 .button:focus {
-	border-color: #060;
-	color: #060;
+	border-color: #EB1D45;
+	color: #EB1D45;
 	background: #FFF;
+	transition: color 0.3s ease-out 0s;
 }
 
 button.fill, .button.fill {
@@ -39,9 +40,10 @@ button.fill:hover,
 button.fill:focus,
 .button.fill:hover,
 .button.fill:focus {
-	border-color: #060;
+	border-color: #EB1D45;
 	color: #FFF;
-	background: #060;
+	background: #EB1D45;
+	transition: color 0.3s ease-out 0s;
 }
 
 button span.fas, .button span.fas {
