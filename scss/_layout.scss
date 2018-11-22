@@ -32,7 +32,11 @@ section.newsletter .field {
 
 section.newsletter .field .input {
     flex: 1 0 auto;
+}
 
+input.news-input:focus {
+    color: #EB1D45;
+    border-color: #EB1D45;
 }
 
 section.newsletter .button {
@@ -42,6 +46,7 @@ section.newsletter .button {
     border-radius: 30px;
     text-transform: uppercase;
     font-weight: bold;
+    flex: 1 0 auto;
 }
 
 .info {
@@ -71,12 +76,17 @@ section.newsletter .button {
     color: #EB1D45;
     transition: color 0.3s ease-out 0s;
 }
-.info button a{
+.info > button:nth-child(4) > a:nth-child(1) {
     text-decoration: none;
 
     color: whitesmoke;
 }
-.info button a:hover {
+
+
+.info button a{
+    
+}
+.info > button:nth-child(4) > a:nth-child(1):hover {
      color: #EB1D45;
     transition: color 0.3s ease-out 0s;
 }

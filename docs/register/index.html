@@ -31,44 +31,54 @@
                         <li><a href="/about/">Pricing</a></li>
                         <li><a href="/gallery/">Gallery</a></li>
                         <li><a href="/blog/">Blog</a></li>
-                        <li><a href="/login/">Login</a></li>
-                        <li><a href="/register/">Register</a></li>
+                        <li><a href="/jekyll-new-foonzy/login/">Login</a></li>
+                        <li><a href="/jekyll-new-foonzy/register/">Register</a></li>
                     </ul>
                 </nav>
             </div>
         </header>
 
         <div>
-    <form action="#" method="post" class="login-form">
-        <fieldset class="login-fieldset">
-            <legend class="login-legend">Login</legend>
+    <form action="#" method="post" class="register-form">
+        <fieldset class="register-fieldset">
+            <legend class="register-legend">Register</legend>
+
+            <p class="email-field">
+                <label for="email" class="register-label">Email</label>
+                <input type="email" class="input-register-email" name="email" id="email">
+            </p>
 
             <p class="user-field">
-                <label for="username" class="login-label">Username</label>
-                <input type="text" class="input-login-user" name="username" id="username">
+                <label for="username" class="register-label">Username</label>
+                <input type="text" class="input-register-user" name="username" id="username">
             </p>
 
             <p class="pass-field">
-                <label for="password" class="login-label">Password</label>
-                <input type="password" class="input-login-pass" name="password" id="password">
+                <label for="password" class="register-label">Password</label>
+                <input type="password" class="input-register-pass" name="password" id="password">
             </p>
 
-            <input type="submit" class="login-button" value="Login">
+            <p class="pass-field">
+                <label for="password" class="register-label">Confirm Password</label>
+                <input type="password" class="input-register-pass" name="password" id="password">
+            </p>
+
+            <input type="submit" class="login-button" value="Register">
             <div class="col">
                 <a href="#" class="fb btn">
-                    <i class="fab fa-facebook-square"></i> Login with Facebook
+                    <i class="fab fa-facebook-square"></i> SignUp with FaceB
                 </a>
 
                 <a href="#" class="google btn">
-                    <i class="fab fa-google-plus-square"></i> Login with Google++
+                    <i class="fab fa-google-plus-square"></i> SignUp with Google
                 </a>
 
                 <a href="#" class="github btn">
-                    <i class="fab fa-github-square"></i> Login with Github
+                    <i class="fab fa-github-square"></i> SignUp with Github
                 </a>
                 
                 <a href="#" class="twitter btn">
-                    <i class="fab fa-twitter-square"></i> Login with Twitter
+                    <i class="fab fa-twitter-square"></i> SignUp with Twitter
                 </a>
             </div>
         </fieldset>
