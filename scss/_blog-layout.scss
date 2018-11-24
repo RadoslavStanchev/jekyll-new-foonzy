@@ -8,6 +8,7 @@
 	font-size: 55px;
 	font-style: bold;
 	text-align: center;
+	color: #614d4b;
 }
 
 nav{ 
@@ -18,9 +19,13 @@ nav{
 
 nav a{
 	text-decoration: none;
-	color: #CAD3E0;
+	color: #614d4b;
 }
 
+nav a:hover {
+	color: #EB1D45;
+	transition: color 0.6 ease-out 1s;
+}
 
 .container {
   margin: 2em 0;
