@@ -10,45 +10,49 @@
     border-color: #333;
     border-radius: 0.3em;
     box-shadow: 0 0 2rem 0 rgba(black, 0.1);
+    // display: inline-block;
+    background: #ccc;
+    padding: 0.6em 2.2em;
 }
 
 .login-fieldset {
     
-    background: #4F413F;
+    background: $brownColor;
     padding: 3.5vh 4.5vw 3vh 4.5vw;
+
+    //     .login-legend {
+    //         display: inline-block;
+    //         background: #ccc;
+    //         padding: 0.6em 2.2em;
+    //         // border-color: #333;
+    // }
 }
 
-.login-fieldset .login-legend {
-    display: inline-block;
-    background: #ccc;
-    padding: 0.6em 2.2em;
-    font-weight: bold;
-    border-color: #333;
-}
+
 
 .login-label {
-    font-weight: bold;
+    
     display: block;
     color: #ccc;
 }
 
-.user-field #username ,
-.pass-field #password{
-    width: 20rem;
-    display: block;
-    border: 2px solid #333;
-    padding: 0.4em 1em;
-    border-radius: 0.4em;
-    background: #ccc;
-    outline: none;
-    transition: background 0.3s ease, border-color 0.3s ease;
-}
+// .user-field #username ,
+// .pass-field #password{
+//     width: 20rem;
+//     display: block;
+//     border: 2px solid #333;
+//     padding: 0.4em 1em;
+//     border-radius: 0.4em;
+//     background: #ccc;
+//     outline: none;
+//     transition: background 0.3s ease, border-color 0.3s ease;
+// }
 
 
 .user-field #username:hover ,
 .pass-field #password:hover {
    
-    border-color: #EB1D45;
+    border-color: $pinkColor;
 } 
 
 .login-button{
@@ -63,9 +67,9 @@
 }
 
 .login-button:hover {
-    background: #EB1D45;
+    background: $pinkColor;
     border-color: #333;
-    transition: background 0.3s ease, border-color 0.3s ease;
+    transition: $transitionMain;
 }
 
 
@@ -77,9 +81,9 @@
     margin: 5px 0;
     opacity: 0.85;
     display: inline-block;
-    font-size: 17px;
-    line-height: 20px;
-    text-decoration: none; /* remove underline from anchors */
+    // font-size: 17px;
+    // line-height: 20px;
+    text-decoration: none; 
     margin-right: 0.2rem;
   }
 

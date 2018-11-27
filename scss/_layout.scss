@@ -1,11 +1,9 @@
-body {
-    background-color: #F1EDE5;
-}
+// body {
+//     background-color: #F1EDE5;
+//     margin: 0 2rem;
+// }
 
-.wrapper {
-    
-    
-}
+
 
 .chocolate-cake .wrapper img{
     // background-image: url(../images/banner.png);
@@ -18,7 +16,7 @@ body {
 }
 
 section.newsletter {
-    background-color: #4F413F;
+    background-color: $brownColor;
     color: #EEE;
     padding: 2rem;
     box-shadow: 0 0 2rem 0.2rem rgba(0, 0, 0, 0.2);
@@ -35,19 +33,19 @@ section.newsletter .field .input {
 }
 
 input.news-input:focus {
-    color: #EB1D45;
-    border-color: #EB1D45;
+    color: $pinkColor;
+    border-color: $pinkColor;
 }
 
-section.newsletter .button {
-    background: #F5FAFE;
-    border:none;
-    padding: 15px 28px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-    flex: 1 0 auto;
-}
+// section.newsletter .news-button {
+//     background: #F5FAFE;
+//     border:none;
+//     padding: 15px 28px;
+//     border-radius: 30px;
+//     text-transform: uppercase;
+//     font-weight: bold;
+//     flex: 1 0 auto;
+// }
 
 .newsletter > header:nth-child(1) > h2:nth-child(1) {
     text-align: center;
@@ -66,32 +64,37 @@ section.newsletter .button {
 
 }
 
-.info button {
-    background: #4F413F;
-    color: white;
-    border:none;
-    padding: 15px 28px;
-    border-radius: 30px;
-    text-transform: uppercase;
-    font-weight: bold;
-}
-
-.info button:hover {
-    color: #EB1D45;
-    transition: color 0.3s ease-out 0s;
-}
-.info > button:nth-child(4) > a:nth-child(1) {
-    text-decoration: none;
-
-    color: whitesmoke;
+button.info-button a {
+    color: #fff;
 }
 
 
-.info button a{
+// button.info-button {
+//     background: #4F413F;
+//     color: white;
+//     border:none;
+//     padding: 15px 28px;
+//     border-radius: 30px;
+//     text-transform: uppercase;
+//     font-weight: bold;
+// }
+
+// button.info-button:hover {
+//     color: #EB1D45;
+//     transition: color 0.3s ease-out 0s;
+// }
+// .info > button:nth-child(4) > a:nth-child(1) {
+//     text-decoration: none;
+
+//     // color: whitesmoke;
+// }
+
+
+// .info button a{
     
-}
-.info > button:nth-child(4) > a:nth-child(1):hover {
-     color: #EB1D45;
-    transition: color 0.3s ease-out 0s;
-}
+// }
+// .info > button:nth-child(4) > a:nth-child(1):hover {
+//      color: #EB1D45;
+//     transition: color 0.3s ease-out 0s;
+// }
 

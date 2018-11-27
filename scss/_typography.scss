@@ -5,12 +5,16 @@ html {
 @media screen and(min-width: 500px) { html{ font-size: 14px } }
 @media screen and(min-width: 600px) { html{ font-size: 16px } }
 @media screen and(min-width: 800px) { html{ font-size: 18px } }
-@media screen and(min-width: 1300) { html{ font-size: 21px } }
+@media screen and(min-width: 1300px) { html{ font-size: 21px } }
 
+body {
+    background-color: #F1EDE5;
+    margin: 0 2rem;
+}
 
 .site-title,
 h1,h2,h3,h4,h5,h6 {
-    font: 1em/1.2 'Mukta', sans-serif;
+    font: 2rem/1.2 'Mukta', sans-serif;
     margin: 1em 0 0.5em 0;
     padding: 0;
 }
@@ -22,12 +26,19 @@ h4{ font-size: 1.6rem; }
 h5{ font-size: 1.4rem; }
 h6{ font-size: 1.2rem; }
 
+
+a {
+    text-decoration: none;
+    
+}
 p {
     margin: 0;
     padding-bottom: 1.5rem;
+    font-size: 0.9rem;
+    font-family: 'Ubuntu', sans-serif;
 }
 
-ol,ul {
+ul {
     margin: 0 0 1.5rem 0;
     padding: 0;
     margin-left: 1.5rem;
@@ -40,4 +51,18 @@ ul li, ol li {
 ul ul {
     margin-top: 0.5rem;
     margin-bottom: 0.5rem;
+}
+
+i {
+    font-size: 1.2rem;
+}
+
+fieldset,
+legend,
+label {
+    font-weight: bold;
+}
+
+input {
+    font-size: 1rem;
 }

@@ -23,7 +23,7 @@ nav a{
 }
 
 nav a:hover {
-	color: #EB1D45;
+	color: $pinkColor;
 	transition: color 0.6 ease-out 1s;
 }
 
@@ -83,7 +83,7 @@ ul.blog-post li p {
   text-align: center;
   width: 50%;
   border: none;
-  background: #36B3A8;
+  // background: #36B3A8;
   font-family: Open Sans, sans-serif;
   font-weight: 300;
   font-size: 0.7em;

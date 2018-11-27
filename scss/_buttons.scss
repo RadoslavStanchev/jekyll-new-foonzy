@@ -8,8 +8,8 @@ button, .button {
 	font-size: 0.8rem;
 	line-height: 1;
 	cursor: pointer;
-	background: transparent;
-	color: #333;
+	background: #4F413F;
+	color: #fff;
 	border: 2px solid #333;
 	border-radius: 0.2rem;
 	padding: 0.5rem 1rem;
@@ -22,12 +22,12 @@ button:last-child, .button:last-child {
 }
 
 button:hover,
-button:focus,
+// button:focus,
 .button:hover,
-.button:focus {
-	border-color: #EB1D45;
-	color: #EB1D45;
-	background: #FFF;
+.button:focus,
+ {
+	border-color: $pinkColor;
+	background: $pinkColor;
 	transition: color 0.3s ease-out 0s;
 }
 
@@ -40,9 +40,9 @@ button.fill:hover,
 button.fill:focus,
 .button.fill:hover,
 .button.fill:focus {
-	border-color: #EB1D45;
+	border-color: $pinkColor;
 	color: #FFF;
-	background: #EB1D45;
+	background: $pinkColor;
 	transition: color 0.3s ease-out 0s;
 }
 

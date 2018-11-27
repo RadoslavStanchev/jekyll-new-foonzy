@@ -6,6 +6,18 @@
 .news-field {
 	text-align: center;
 }
+.email-field #email,
+.user-field #username ,
+.pass-field #password {
+	width: 20rem;
+    display: block;
+    border: 2px solid #333;
+    padding: 0.4em 1em;
+    border-radius: 0.4em;
+    background: #ccc;
+    outline: none;
+    transition: $transitionMain;
+}
 
 input.news-input {
 	border-radius: 1rem;
@@ -27,8 +39,8 @@ input.news-input {
 }
 
 .news-button:hover {
-	border-color: #EB1D45;
-	color: #EB1D45;
+	border-color: $pinkColor;
+	color: $pinkColor;
 }
 
 
