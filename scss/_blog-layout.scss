@@ -32,13 +32,13 @@ nav a:hover {
   text-align: center;
 }
 
-ul.blog-post {
+div.blog-post {
 	list-style: none;
 	font-size: 0px;
 	margin-left: -2.5%;
 }
 
-ul.blog-post li {
+div.blog-post article {
 	display: inline-block;
   border-radius: 3px;
 	padding: 1.5em;
@@ -55,13 +55,13 @@ ul.blog-post li {
 	-webkit-box-sizing: border-box;
 }
 
-ul.blog-post li img {
+div.blog-post article img {
 	max-width: 100%;
 	height: auto;
 	margin: 0 0 10px;
 }
 
-ul.blog-post li h3 {
+div.blog-post article h3 {
 	margin: 0.6em 0 0.6em;
   text-align: left!important;
   font-family: Source Sans Pro, sans-serif;
@@ -69,7 +69,7 @@ ul.blog-post li h3 {
   font-size: 1.1em;
 }
 
-ul.blog-post li p {
+div.blog-post article p {
   margin: 0.6em 0 1.3em;
 	font-size: .9em;
 	line-height: 1.5em;
@@ -97,22 +97,22 @@ ul.blog-post li p {
   cursor: pointer;
 }
 
-ul.blog-post.columns-2 li {
+div.blog-post.columns-2 article {
 	width: 37%;
 }
  
 @media (max-width: 480px) {
-	ul.grid-nav li {
+	div.grid-nav article {
 		display: block;
 		margin: 0 0 5px;
 	}
-	ul.grid-nav li a {
+	div.grid-nav article a {
 		display: block;
 	}
-	ul.blog-post {
+	div.blog-post {
 		margin-left: 0;
 	}
-	ul.blog-post li {
+	div.blog-post article {
 		width: 100% !important;
 		margin: 0 0 20px;
 	}
