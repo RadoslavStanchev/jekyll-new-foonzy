@@ -27,9 +27,11 @@
 }
 
 .user-field #username:hover ,
-.pass-field #password:hover {
+.pass-field #password:hover,
+.user-field #username:focus,
+.pass-field #password:focus {
    
-    border-color: $pinkColor;
+    border-color: #333;
     box-shadow: $pinkBoxShadow;
 } 
 

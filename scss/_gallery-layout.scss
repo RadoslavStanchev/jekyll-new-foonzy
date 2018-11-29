@@ -10,6 +10,10 @@
     max-width: 100%;
   }
 
+  .grid img:hover {
+    transform: $imgZoom;
+  }
+
   @media screen and (max-width: 414px) {
    .grid{
     grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));

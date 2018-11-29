@@ -32,12 +32,15 @@
 
 .email-field #email:hover,
 .user-field #username:hover ,
-.pass-field #password:hover { 
-    border-color: $pinkColor;
+.pass-field #password:hover,
+.email-field #email:focus,
+.user-field #username:focus ,
+.pass-field #password:focus { 
+    border-color: #333;
     box-shadow: $pinkBoxShadow;
 } 
 
-.login-button{
+.login-button {
     display: block;
     border: 2px solid #CCC;
     background: #333;
