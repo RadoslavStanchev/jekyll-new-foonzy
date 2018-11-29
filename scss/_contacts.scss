@@ -1,0 +1,51 @@
+.site-contacts {
+    text-align: center;
+}
+
+.contact-form {
+    input, textarea {
+      padding: 1.2rem;
+      display: block;
+      width: 100%;
+      margin-top: 1em;
+      resize: none;
+      background: #4F413F;
+      color: white;  
+      border-style: solid;
+    }
+  
+    textarea {
+        height: 13.5rem;
+        margin-top: 1em;
+    }
+
+    input:hover,
+    textarea:hover {
+        border-color: $pinkColor;
+        transition: $transitionMain;
+        box-shadow: $pinkBoxShadow;
+    }
+  
+    input.submit-button {
+      font-size: 1.6rem;
+      padding: 0.8rem;
+    }
+
+    input.submit-button:hover {
+        border-color: $pinkColor;
+        transition: $transitionMain;
+        background: $pinkColor;
+    }
+  
+    .side {
+      float: left;
+      width: 48%;
+      margin-bottom: 1em;
+    }
+  
+    .right { width: 50%; }
+  
+    .left {
+      margin-right: 2%;
+    }
+  }

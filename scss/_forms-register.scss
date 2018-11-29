@@ -1,4 +1,3 @@
-
 .register-form {
     animation: lightSpeedIn 0.5s 1 ease-in-out forwards;
     width: 70%;
@@ -12,8 +11,7 @@
     box-shadow: 0 0 2rem 0 rgba(black, 0.1);
 }
 
-.register-fieldset {
-    
+.register-fieldset { 
     background: $brownColor;
     padding: 3.5vh 4.5vw 3vh 4.5vw;
 }
@@ -31,24 +29,12 @@
     display: block;
     color: #ccc;
 }
-// .email-field #email,
-// .user-field #username ,
-// .pass-field #password{
-//     width: 20rem;
-//     display: block;
-//     border: 2px solid #333;
-//     padding: 0.4em 1em;
-//     border-radius: 0.4em;
-//     background: #ccc;
-//     outline: none;
-//     transition: background 0.3s ease, border-color 0.3s ease;
-// }
 
 .email-field #email:hover,
 .user-field #username:hover ,
-.pass-field #password:hover {
-   
+.pass-field #password:hover { 
     border-color: $pinkColor;
+    box-shadow: $pinkBoxShadow;
 } 
 
 .login-button{
@@ -66,8 +52,8 @@
     background: $pinkColor;
     border-color: #333;
     transition: $transitionMain;
+    box-shadow: $pinkBoxShadow;
 }
-
 
 .btn {
     // width: 21%;
@@ -85,6 +71,7 @@
 
   .btn:hover {
     opacity: 1;
+    box-shadow: $pinkBoxShadow;
   }
   .fb {
     background-color: #3B5998;
