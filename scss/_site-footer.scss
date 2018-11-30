@@ -11,5 +11,5 @@
 
 .site-footer a:hover {
     color: $pinkColor;
-    transition: color 0.3s ease-out 0s;
+    transition: $transitionColor;
 }

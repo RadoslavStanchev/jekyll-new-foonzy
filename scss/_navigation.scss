@@ -30,10 +30,6 @@ nav.main > ul > li {
 	padding: 0 0.5rem 0 0;
 }
 
-nav.main ul li:hover > a {
-}
-
-
 
 nav.main ul li a {
 	display: block;
@@ -44,8 +40,8 @@ nav.main ul li a {
 }
 
 nav.main ul li a:hover,{
-	color: #EB1D45;
-    transition: color 0.6 ease-out 1s;
+	color: $pinkColor;
+    transition: $transitionColor;
 }
 
 nav.main ul li a:before {
@@ -55,7 +51,7 @@ nav.main ul li a:before {
     height: 2px;
     bottom: 0;
     left: 0;
-    background-color: #EB1D45;
+    background-color: $pinkColor;
     visibility: hidden;
     -webkit-transform: scaleX(0);
     transform: scaleX(0);

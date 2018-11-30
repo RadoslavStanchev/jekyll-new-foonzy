@@ -21,9 +21,7 @@ button:hover,
 .button:hover,
 .button:focus,
  {
-	border-color: $pinkColor;
-	background: $pinkColor;
-	transition: color 0.3s ease-out 0s;
+	@include button-hover($pinkColor, $transitionColor);
 }
 
 button.fill, .button.fill {
@@ -35,8 +33,5 @@ button.fill:hover,
 button.fill:focus,
 .button.fill:hover,
 .button.fill:focus {
-	border-color: $pinkColor;
-	color: #FFF;
-	background: $pinkColor;
-	transition: color 0.3s ease-out 0s;
+	@include button-hover($pinkColor, $transitionColor);
 }

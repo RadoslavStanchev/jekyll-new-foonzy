@@ -1,0 +1,10 @@
+@mixin blogBox {
+    box-sizing: border-box;
+  }
+
+@mixin button-hover ($pinkColor, $transitionColor) {
+    border-color: $pinkColor;
+	color: #FFF;
+	background: $pinkColor;
+	transition: $transitionColor;
+}

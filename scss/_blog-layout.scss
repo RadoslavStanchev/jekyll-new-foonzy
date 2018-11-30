@@ -20,7 +20,7 @@ nav {
   }
   a:hover {
     color: $pinkColor;
-    transition: color 0.6 ease-out 1s;
+    transition: $transitionColor;
   }
 }
 
