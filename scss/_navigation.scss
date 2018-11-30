@@ -79,16 +79,6 @@ nav.main ul li a:hover:before {
 	display: none;
 }
 
-#toggle {
-	position: relative;
-	flex: 1 0 100%;
-	align-items: center;
-	align-content: center;
-	justify-content: center;
-    padding: 1rem 0;
-    animation: navtogglein 0.5s 1 ease-in-out forwards;
-}
-
 #toggle i.fas {
 	display: inline-block;
 	margin-right: 0.4rem;
@@ -111,9 +101,6 @@ nav.main ul li a:hover:before {
 		border-top: 2px solid #000;
 	}
 
-	nav.main ul li:not(:first-child) {
-		// padding-top: 0.5rem;
-    }
 
 	#main-nav-toggle:checked + header nav.main {
 		display: block;

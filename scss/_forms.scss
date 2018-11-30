@@ -1,11 +1,4 @@
-.news-form {
-	max-width: 50%;
-	margin: 0 auto;
-}
 
-.news-field {
-	text-align: center;
-}
 .email-field #email,
 .user-field #username ,
 .pass-field #password {
@@ -17,50 +10,4 @@
     background: #ccc;
     outline: none;
     transition: $transitionMain;
-}
-
-input.news-input {
-	border-radius: 1rem;
-	border-style: none;
-	
-	padding: 0.3rem;
-    margin-right: 1rem;
-    background: #CCC;
-	font-weight: bold
-}
-
-.news-button {
-	border-radius: 0.5rem;
-	border-style: none;
-	padding: 0.3rem;
-	font-weight: bold;
-	background-color: #CCC;
-	cursor: pointer;
-}
-
-.news-button:hover {
-	border-color: $pinkColor;
-	color: $pinkColor;
-}
-
-
-@media screen and (max-width: 800px) {
-	.news-field {
-		display: flex;
-		flex-direction: column;
-	}
-
-	.news-field input.news-input {
-		flex: 1 0 auto;
-	}
-
-	.news-field input.news-input + * {
-		margin-left: 0.5rem;
-	}
-
-	.news-button {
-		// margin-bottom: 2.2rem;
-		margin-top: 1rem;
-	}
-	
 }

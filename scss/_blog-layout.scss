@@ -30,16 +30,13 @@ nav {
 }
 
 div.blog-post {
-  list-style: none;
-
-  margin-left: -2.5%;
 
   article {
     display: inline-block;
     border-radius: 3px;
     padding: 1.5em;
     width: 400px;
-    margin: 0 0 2.5% 2.5%;
+    margin: 0 0 2rem 2rem;
     background: #fff;
     border: 1px solid #eee;
     vertical-align: top;
@@ -47,11 +44,12 @@ div.blog-post {
     box-sizing: border-box;
     -moz-box-sizing: border-box;
     -webkit-box-sizing: border-box;
+    width: 37%;
 
     img {
       max-width: 100%;
       height: auto;
-      margin: 0 0 10px;
+      margin: 0 0 1rem;
     }
 
     img:hover {
@@ -60,7 +58,7 @@ div.blog-post {
 
     h3 {
       margin: 0.6em 0 0.6em;
-      text-align: left !important;
+      text-align: left;
       color: #333;
     }
 
@@ -68,7 +66,7 @@ div.blog-post {
       margin: 0.6em 0 1.3em;
       line-height: 1.5em;
       color: #8c8c8c;
-      text-align: left !important;
+      text-align: left;
     }
   }
 }
@@ -76,19 +74,12 @@ div.blog-post {
 .button {
   text-align: center;
   width: 50%;
-  border: none;
-  color: white;
-  border-radius: 5px;
-  padding: 8px 15px 8px 15px;
+  
 
   &:hover {
     opacity: 0.9;
     cursor: pointer;
   }
-}
-
-div.blog-post.columns-2 article {
-  width: 37%;
 }
 
 @media (max-width: 480px) {
