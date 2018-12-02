@@ -82,16 +82,9 @@ div.blog-post {
   }
 }
 
-@media (max-width: 480px) {
-  div.blog-post {
-    margin-left: 0;
-  }
-  div.blog-post article {
-    width: 100% !important;
-    margin: 0 0 20px;
-  }
-}
-
 footer {
   text-align: center;
 }
+
+
+@include blogResp;

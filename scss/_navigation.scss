@@ -122,13 +122,4 @@ nav.main ul li a:hover:before {
 
 }
 
-@media screen and (min-width: 800px) {
-
-	nav.main ul {
-		display: flex;
-	}
-
-	nav.main ul li:hover > ul {
-		display: block;
-	}
-}
+@include navigationResp;

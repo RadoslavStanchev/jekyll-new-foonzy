@@ -8,3 +8,72 @@
 	background: $pinkColor;
 	transition: $transitionColor;
 }
+
+@mixin contactResp {
+    @media screen and (max-width: 800px) {
+        .contact-form .side {
+          width: 100%;
+        }
+      }
+}
+
+
+@mixin loginFormResp {
+    @media screen and (max-width: 650px) {
+        .col {
+        display: flex;
+          width: 100%;
+          margin-top: 0;
+        }
+    
+        .login-form {
+            display: flex;
+            width: 100%;
+        }
+    }
+    
+}
+
+
+@mixin registerFormResp {
+    @media screen and (max-width: 650px) {
+        .col {
+        display: flex;
+          width: 100%;
+          margin-top: 0;
+        }
+    
+        .register-form {
+            display: flex;
+            width: 100%;
+            // overflow: hidden;
+        }
+    }
+}
+
+@mixin blogResp {
+    @media (max-width: 480px) {
+        div.blog-post {
+          margin-left: 0;
+        }
+        div.blog-post article {
+          width: 100% !important;
+          margin: 0 0 20px;
+        }
+      }
+      
+}
+
+@mixin navigationResp {
+    @media screen and (min-width: 800px) {
+
+        nav.main ul {
+            display: flex;
+        }
+    
+        nav.main ul li:hover > ul {
+            display: block;
+        }
+    }
+    
+}
