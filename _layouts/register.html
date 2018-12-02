@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
     <title>{{ register.title }}</title>
     <link rel="stylesheet" href="{{ site.baseurl }}/css/styles.css" type="text/css">
 </head>
+
 <body>
     <div class="site">
         <input type="checkbox" name="main-nav-toggle" id="main-nav-toggle" value="">
@@ -18,21 +20,21 @@
                     </p>
                     <p class="site-description">{{ site.description }}</p>
                 </div>
-    
+
                 <label id="toggle" for="main-nav-toggle">
                     <i class="fas fa-bars"></i>
                     <i class="fas fa-times"></i>
                     MENU
                 </label>
-                <img src="../images/logo.jpg">
+                <img src="../images/logo.jpg" alt="logo">
                 <nav class="main navigation">
                     <ul>
                         <li><a href="{{ site.baseurl }}/">Home</a></li>
                         <li><a href="{{ site.baseurl }}/blog/">Blog</a></li>
-                        <li><a href="{{ site.baseurl }}/gallery/">Gallery</a></li>      
-                        <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>          
+                        <li><a href="{{ site.baseurl }}/gallery/">Gallery</a></li>
+                        <li><a href="{{ site.baseurl }}/contacts/">Contacts</a></li>
                         <li><a href="{{ site.baseurl }}/login/">Login</a></li>
-                        <li><a href="{{ site.baseurl }}/register/">Register</a></li> 
+                        <li><a href="{{ site.baseurl }}/register/">Register</a></li>
                     </ul>
                 </nav>
             </div>
@@ -43,5 +45,7 @@
         <footer class="site-footer">
             <a href="#">Foonzy</a> at your service! Copyright &copy; 2018
         </footer>
+    </div>
 </body>
+
 </html>
